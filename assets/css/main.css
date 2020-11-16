@@ -162,6 +162,7 @@ textarea {
   -webkit-appearance: none;
   -ms-appearance: none;
   appearance: none;
+  resize: none;
 }
 
 /* Basic */
@@ -2560,6 +2561,7 @@ input[type="button"],
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
+  margin-top: 1rem;
 }
 
 input[type="submit"]:hover,
