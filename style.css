@@ -33,3 +33,12 @@ h1 em{text-shadow:0 0 14px #f4a0ca35,0 0 35px #d75ca71a}
 .workrow:hover .arrow,.textlink:hover{color:var(--cyan);text-shadow:0 0 12px #8fe6df66}
 a:focus-visible,button:focus-visible{box-shadow:0 0 20px #8fe6df25}
 @media(max-width:800px){.facts strong{font-size:25px}}
+/* Visible neon accents: bright cores with two soft falloff layers. */
+h1 em{color:#ffc1e1;text-shadow:0 0 5px #ff87c9a6,0 0 18px #f46ab778,0 0 42px #d75ca744}
+.monogram{border-color:#a3fff6;box-shadow:0 0 7px #8fe6df80,0 0 24px #65dfd154,inset 0 0 10px #8fe6df1f;text-shadow:0 0 9px #8fe6df80}
+.button,.filter[aria-pressed=true]{border-color:#b6fff7;box-shadow:0 0 7px #8fe6df70,0 0 24px #65dfd147}
+.button:hover{box-shadow:0 0 8px #f4a0ca99,0 0 28px #f46ab766}
+.hero-art{border-color:#a18fc1;box-shadow:0 0 10px #b786cc38,0 0 30px #9e6ecb24}
+.art-box:last-of-type{border-color:#ffb0da;box-shadow:0 0 7px #f4a0ca4d,0 0 22px #f46ab733}
+.listing-intro::after,.articlehead::after{content:'';display:block;margin-top:30px;width:120px;height:2px;background:#a3fff6;box-shadow:0 0 6px #8fe6df,0 0 18px #65dfd180}
+.navlinks a[aria-current=page]{color:#ffb0da;text-shadow:0 0 10px #f46ab780}
